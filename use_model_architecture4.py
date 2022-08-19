@@ -249,9 +249,9 @@ if train_on_gpu:
 #%%
 set_seed(6)
 
-    ##################  
-    # test the model #
-    ##################
+    #################  
+    # Use the model #
+    #################
 
 model.load_state_dict(torch.load(model_path,map_location=torch.device('cpu')))
 
